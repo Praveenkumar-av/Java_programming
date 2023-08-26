@@ -1,0 +1,13 @@
+Comments are description about the features of the program, Comments are ignored by the compiler
+Comments are of three types
+
+1. Single line comment
+single line comment starts with '//' symbol
+
+2. Multi line comment
+Multiline comment starts with '/*' and ends with '*/'
+
+3. Documentation comment
+Documentation comment starts with '/**' and ends with '*/'
+Documentation comment is used to generate documentation for the program
+Documentation comment is used by javadoc tool to generate documentation for the program

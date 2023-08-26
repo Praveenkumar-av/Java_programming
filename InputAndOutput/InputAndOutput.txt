@@ -1,0 +1,6 @@
+A stream is required to accept input from the keyboard. A stream represents the flow of data from one place to another
+All streams are represented by classes in Java.oi
+keyboard is repersented by a field 'in' in the class 'System'
+System.in : InputStream - default input stream connected to keyboard
+System.out : PrintStream - default output stream connected to console
+System.err : PrintStream - default output stream connected to console
