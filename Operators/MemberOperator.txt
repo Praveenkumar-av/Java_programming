@@ -1,0 +1,14 @@
+Member operator is also called a dot operator since its symbol is a dot (.).
+This operator tells about the member of a package or class. It is used in three ways.
+
+1. We can use . operator to access class of a package.
+Syntax : packagename.classname
+Eg : java.io.BufferedReader
+
+2. To refer the variable of a class.
+Syntax : objectname.variablename or classname.variablename
+Eg : System.out 
+
+3. To refer the method of a class.
+Syntax : objectname.methodname or classname.methodname
+Eg : Math.sqrt()

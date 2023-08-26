@@ -1,0 +1,9 @@
+Cast operator is used to convert one data type into another data type. 
+This operator can be used by writing datatype in parenthesis before the value to be converted.
+
+Example:
+double x = 10.2;
+int y = (int)x; // y = 10
+
+In the above statement, (int) is called the cast operator.
+Cast operator is generally used before a variable or before a method. 

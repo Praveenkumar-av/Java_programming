@@ -1,0 +1,5 @@
+'new' operator is often used to create objects to classes. 
+
+Syntax : classname objectname = new classname();
+
+Eg : Employee emp = new Employee();  // 'emp' is an object of 'Employee' class

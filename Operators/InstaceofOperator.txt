@@ -1,0 +1,5 @@
+This operator is used to test if an object belongs to a class or not. instance means object.
+It also used to check if an object belongs to an interface or not.
+
+Syntax: boolean result = object instanceof class/interface
+Eg : boolean x = emp instanceof Employee
