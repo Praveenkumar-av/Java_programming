@@ -9,5 +9,6 @@ class temp
 
         String str = br.readLine();
         System.out.println(str);
+        
     }
 }
