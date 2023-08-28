@@ -1,0 +1,8 @@
+An array represents a group of elements of same data type. It can store a group of elements.
+So we can store group of int values or group of float values or group of char string in array.
+But we can not store different data type in same array.
+In java, arrays are created on dynamic memory, i.e allotted at run time by JVM.
+Types :
+    Single Dimensional Array
+    Multi Dimensional Array
+    Jagged Array
