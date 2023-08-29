@@ -1,0 +1,47 @@
+// String clas methods in Java
+
+ method                               description
+
+String concat(String str)               concatenates the specified string to the end of this string
+ 
+int length()                            returns the length of this string
+ 
+char charAt(int index)                  returns the char value at the specified index
+ 
+int compareTo(String str)               compares two strings lexicographically, returns 0 if the strings are equal, a negative integer if the first string is less than the 
+                                         second string, and a positive integer if the first string is greater than the second string
+ 
+int compareToIgnoreCase(String str)     compares two strings lexicographically, ignoring case differences
+ 
+boolean equals(Object obj)              This method returns true if two strings are equal, otherwise false
+ 
+boolean equalsIgnoreCase(String str)    It is same as equals() method, but ignores the case differences
+ 
+boolean startsWith(String str)          This method returns true if the given string starts with the substring specified, otherwise false
+ 
+boolean endswith(String str)            This method returns true if the given string ends with the substring specified, otherwise false
+
+int indexOf(int ch)                     returns the index within this string of the first occurrence of the specified character
+ 
+int indexOf(int ch, int fromIndex)      returns the index within this string of the first occurrence of the specified character, starting the search at the specified index
+ 
+int indexOf(String str)                 returns the index within this string of the first occurrence of the specified substring
+
+int lastIndexOf(String str)             returns the index within this string of the last occurrence of the specified substring
+
+String replace(char c1, char c2)        returns a new string resulting from replacing all occurrences of old char 'c1' in this string with 'c2'
+
+String substring(int beginIndex)        returns a new string that is a substring of this string. The substring begins with the character at the specified index and extends to the end of this string
+
+String substring(int begin, int end)    returns a new string that is a substring of this string. The substring begins at the specified beginIndex and extends to the character at index endIndex - 1
+
+String toLowerCase()                    returns a new string that is a lower case string equivalent to this string
+
+String toUpperCase()                    returns a new string that is a upper case string equivalent to this string
+
+String trim()                           returns a copy of the string, with leading and trailing whitespace omitted
+
+String[] split(String delimiter)        returns a string array that contains the substrings of this string that are delimited by the given regular expression
+
+void getChars(int i1, int i2, char[] arr, int i3)  copies characters from this string into the destination character array. The characters strating from
+                                                    position i1 to i2-1. The destination array arr is filled from position i3 onwards

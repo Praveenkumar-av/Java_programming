@@ -2,12 +2,7 @@ class temp
 {
     public static void main(String args[])
     {
-        int x = 1;
-
-        for(;false;x++)
-        {
-            if(x>5) break;
-            System.out.println("x : " + x);
-        }
+        char arr[] = {'H','e','l','l','o','!'};
+        System.out.println(arr);
     }
 }
