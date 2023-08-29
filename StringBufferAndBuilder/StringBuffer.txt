@@ -1,0 +1,7 @@
+String Buffer class in Java
+
+String class objects are immutable. This means that once the String object is created, it cannot be changed. 
+If you try to change the value of the existing String object, a new object is created rather than changing the previous one.
+
+StringBuffer class is used to create mutable (modifiable) string objects. Moreover the methods that directly manipulate
+data are not available in String class. Such methods are available in StringBuffer class.

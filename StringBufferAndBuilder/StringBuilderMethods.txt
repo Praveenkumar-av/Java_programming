@@ -1,0 +1,25 @@
+StringBuilder methods in Java
+
+The following are the important methods of the StringBuilder class, which are functionally similar to the StringBuffer class.
+
+StringBuilder append(String str)
+
+StringBuilder insert(int offset, String str)
+
+StringBuilder replace(int startIndex, int endIndex, String str)
+
+StringBuilder delete(int startIndex, int endIndex)
+
+StringBuilder reverse()
+
+StringBuilder substring(int startIndex)
+
+StringBuilder substring(int startIndex, int endIndex)
+
+String toString()
+
+int length()
+
+int indexOf(String str)
+
+int lastIndexOf(String str)

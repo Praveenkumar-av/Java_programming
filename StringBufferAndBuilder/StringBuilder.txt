@@ -1,0 +1,17 @@
+StringBuilder class has same features like StringBuffer class.
+StringBuilder class objects are also mutable like StringBuffer class objects.
+
+To create StringBuilder class object :
+    StringBuilder sb = new StringBuilder("Hello");
+    StringBuilder sb = new StringBuilder(10);
+    StringBuilder sb = new StringBuilder();
+
+Difference between StringBuffer and StringBuilder class :
+    StringBuffer class is synchronized whereas StringBuilder class is not synchronized.
+
+    Synchronization does not allow more than 1 thread to simultaneously act on the object. When several threads act on StringBuffer object, 
+they are executed one by one on the object, thus ensuring reliable result.
+
+    But in StringBuilder object, it allows several threads to act on it simultaneously. This may lead to inaccurate results in some cases.
+    StringBuffer class will take more execution time than StringBuilder class.
+    StringBuffer class is used in multithreaded environment whereas StringBuilder class is used in single threaded environment.
