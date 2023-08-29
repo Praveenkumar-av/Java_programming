@@ -8,9 +8,6 @@ Syntax :
         case value2:
             statements;
             break;
-        case value3:
-            statements;
-            break;
         default:
             statements;
     }
