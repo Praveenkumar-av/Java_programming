@@ -1,8 +1,18 @@
+class show
+{
+    int num;
+    void display(int num)
+    {
+        this.num = num;
+        System.out.println("Number is: "+this.num);
+    }
+}
+
 class temp
 {
     public static void main(String args[])
     {
-        char arr[] = {'H','e','l','l','o','!'};
-        System.out.println(arr);
+        show s = new show();
+        s.display(10);
     }
 }
