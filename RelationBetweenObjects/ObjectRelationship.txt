@@ -1,0 +1,6 @@
+It is possible to create objects for different classes and establish relationship between them. When the objects are
+related, it is possible to access and use members of one object in another object.
+There are three ways to relate objects in Java:
+1. Using reference
+2. Using inner class concept
+3. Using inheritance

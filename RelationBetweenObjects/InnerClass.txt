@@ -1,0 +1,12 @@
+Inner class in Java
+
+    Inner class is a class written within another class. Inner class is basically a safety machanism, 
+since it is hidden from other classes in its outer class. If we use private before a class, the class is
+not available to the JVM. So it is illegal to use private before a class. But if we use private before an
+inner class, it is legal. Because inner class is not available to the JVM. It is only available to the outer class.
+
+There are four types of inner classes:
+1. Nested inner class
+2. Method Local inner class
+3. Static Nested class
+4. Anonymous inner class
