@@ -8,6 +8,16 @@ class StringBufferMethods
         StringBuffer sb = new StringBuffer("Uni");
         System.out.println(sb);
 
+        // StringBuffer capacity() : returns the current capacity of the StringBuffer
+        System.out.println(sb.capacity());
+
+        // StringBuffer ensureCapacity(int minCapacity) : increases the capacity of the StringBuffer to minCapacity
+        sb.ensureCapacity(50);
+        System.out.println(sb.capacity());
+
+        // StringBuffer charAt(int index) : returns the character at the specified index
+        System.out.println(sb.charAt(2));
+
         // StringBuffer append(x) : x may be boolean, byte, int, long, float, double, char, String, or another StringBuffer object
         sb.append("versity");
         System.out.println(sb);
@@ -48,5 +58,13 @@ class StringBufferMethods
         // StringBuffer substring(int start, int end) : returns the substring from start to end-1
         s = sb.substring(3, 6);
         System.out.println(s);
+        
+        // StringBuffer delete(int start, int end) : deletes the characters from start to end-1
+        sb.delete(2,4);
+        System.out.println(sb);
+
+        // StringBuffer deleteCharAt(int index) : deletes the character at the specified index
+        sb.deleteCharAt(1);
+        System.out.println(sb);
     }
 }

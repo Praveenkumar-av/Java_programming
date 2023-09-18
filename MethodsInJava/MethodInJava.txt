@@ -1,0 +1,31 @@
+A methods represents a group of statements that performs a specific task. 
+A method has two parts :
+1. Method header or prototype
+2. Method body
+
+Method header or prototype :
+    It contains method name, method parameters and return type.
+ Syntax : 
+    accessmodifier returndatatype methodname(datatype parameter1, datatype parameter2,....) Exemption statements
+ Eg :
+    double sqrt(double x)   // return type is double, method name is sqrt, parameter is double
+
+    public void sum()            // return type is void, method name is sum, no parameter
+
+    Employee calculateSalary(Employee obj)     // class as parameter and return type
+
+    int[][] sort(int[][] arr)       // 2D array as parameter and return type
+
+Method body :  
+    It contains the statements that are executed when the method is called.
+    Eg : 
+    {
+        //statements
+    }
+
+Method Example :
+
+accessmodifier returntype methodname(datatype parameter1, datatype parameter2,....) Exemption statements
+{
+    //statements
+}
