@@ -25,8 +25,8 @@ class Test
     // instance method
     void display()
     {
-        System.out.println("num1 :"+num1);
-        System.out.println("num2 :"+num2);
+        System.out.println("num1 :"+this.num1);
+        System.out.println("num2 :"+Test.num2);
     }
 
     void local(int num)

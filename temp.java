@@ -1,10 +1,10 @@
 class show
 {
-    int num;
-    void display(int num)
+    static int num;
+    static void display(int num)
     {
-        this.num = num;
-        System.out.println("Number is: "+this.num);
+        show.num = num;
+        System.out.println("Number is: "+show.num);
     }
 }
 

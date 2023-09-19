@@ -1,0 +1,5 @@
+/* Final class is a class which is defined as final. final keyword before a class prevents inheritance.
+This means sub classes cannot be created to a final class.  */
+
+final class A
+class B extends A  // invalid 
