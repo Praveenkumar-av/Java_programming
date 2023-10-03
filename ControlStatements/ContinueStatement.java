@@ -13,7 +13,7 @@ class ContinueStatement
         {
             if(i>5)
             {
-                continue;   // skip the rest of the loop
+                continue;   // skip the rest of the statements
             }
             System.out.println(i);
         }

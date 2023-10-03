@@ -16,7 +16,8 @@ class Eg1
         System.out.println("Character at index 3 in s1: " + s1.charAt(3));
 
         // concatenate two strings
-        System.out.println("Concatenation of s1 and s2: " + s1.concat(s2));
+        System.out.println("Concatenation of s1 and s2: " + s1.concat(s2));  // s1 is not modified
+        // if we assign s1 = s1.concat(s2) , s1 is stored with concatenated value by creating new object
 
         // concatenate strings with '+'
         System.out.println("Concatenation using + : " + s1 +"From"+ s2);
@@ -37,7 +38,7 @@ class Eg1
         System.out.println("s1 ends with \"Java\": " + s1.endsWith("Java"));
 
         // Extract a substring from a string
-        System.out.println("Substring of s1: " + s2.substring(2, 6));  // o th character to 6 th character
+        System.out.println("Substring of s1: " + s2.substring(2, 6));  // 2 th character to 5 th character
 
         // Convert a string to upper case
         System.out.println("Uppercase of s1: " + s1.toUpperCase());

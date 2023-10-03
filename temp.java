@@ -1,10 +1,16 @@
 class show
 {
-    static int num;
-    static void display(int num)
+    int num;
+    void num(int a)
     {
-        show.num = num;
-        System.out.println("Number is: "+show.num);
+        num = a;
+        System.out.println("Number is: "+num);
+        this.display();
+    }
+
+    private void display()
+    {
+        System.out.println("a :"+num);
     }
 }
 
@@ -12,7 +18,14 @@ class temp
 {
     public static void main(String args[])
     {
-        show s = new show();
-        s.display(10);
+        try
+        {
+            show s = new show();
+            s.num(10);
+        }
+        catch(Exception e)
+        {
+            System.out.println("Catched :");
+        }
     }
 }

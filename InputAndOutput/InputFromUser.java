@@ -3,7 +3,7 @@
 import java.io.*;  // import all classes from java.io package
 class InputFromUser
 {
-    public static void main(String args[])
+    public static void main(String args[]) throws IOException
     {
         // To accept data from keyboard, i.e System.in, we need to connect it to Input Stream
         // InputStreamReader obj = new InputStreamReader(System.in);
