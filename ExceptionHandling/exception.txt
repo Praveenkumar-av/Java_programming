@@ -1,0 +1,17 @@
+Exceptions in Java
+Basically, an exception is an runtime error.
+Checked exception :
+    The exceptions that are checked at compile time are called 'checked exceptions'. 
+
+Unchecked exceptions :
+    The exceptions that are checked by the JVM are called 'Unchecked exceptions'.
+
+Throwable is a class that represents all errors and exceptions which may occur in a java program.
+
+-> An exception can be handled by using try,catch and finally block.
+-> It is possible to handle multiple exceptions by using multiple catch blocks.
+-> A single catch block can also be used to catch multiple exceptions using the ( | ) symbol.
+-> Even though there is possiblity for several exceptions in try block, at a time only one exception 
+will be raised.
+-> A single try block can be followed by multiple catch blocks.
+-> It is possible to write a try block within another block. They are called nested try blocks.
