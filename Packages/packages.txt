@@ -1,0 +1,22 @@
+A package represents a directory that contains group of classes and interfaces. 
+Eg : import java.io.*;
+    Here, java.io is a package name.
+    java.io package contains a set of classes and interfaces that supports input and output operations.
+    java.lang package is automatically imported into all the programs.
+    java.lang package contains the fundamental classes and interfaces of Java language.
+
+->There are two types of packages in Java: built-in packages and user-defined packages.
+Built-in Packages: The packages which are already defined in Java API are called built-in packages.
+    Eg : java.lang, java.io, java.util, java.sql etc.
+
+User-defined Packages: The packages which are defined by users such as java. awt, java. lang etc. are called user-defined packages.
+    -> The users can also create their own packages by defining the classes in the package by using the 'package' keyword, 
+    followed by the package name at the top of the program.
+    -> User-defined packages can also be imported in the same way as the built-in packages.
+
+package declaration :
+Syntax : package packageName;  // to create a package
+         package packageName.subPackageName; // to create a subpackage
+
+While creating the class in a package is to declare all the members and the class itself as public, except
+the instance variables. The reason is only that the public members are available outside the package to other programs.
