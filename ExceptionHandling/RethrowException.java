@@ -2,7 +2,7 @@
 
 class A 
 {
-    void method1() //throws StringIndexOutOfBoundsException
+    void method1() throws StringIndexOutOfBoundsException
     {
         try
         {
