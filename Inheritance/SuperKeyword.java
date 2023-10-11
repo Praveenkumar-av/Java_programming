@@ -31,7 +31,7 @@ class Two extends One
         super.show();
 
         // using super to access super class variable
-        System.out.println("Super i :"+i);
+        System.out.println("Super i :"+super.i);
     }
 }
 

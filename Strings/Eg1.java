@@ -38,7 +38,7 @@ class Eg1
         System.out.println("s1 ends with \"Java\": " + s1.endsWith("Java"));
 
         // Extract a substring from a string
-        System.out.println("Substring of s1: " + s2.substring(2, 6));  // 2 th character to 5 th character
+        System.out.println("Substring of s1: " + s2.substring(2, 6));  // 2 nd character to 5 th character
 
         // Convert a string to upper case
         System.out.println("Uppercase of s1: " + s1.toUpperCase());

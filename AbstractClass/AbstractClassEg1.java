@@ -45,7 +45,7 @@ class AbstractClassEg1
         Square s = new Square();
         s.calculate(d);
 
-        SquareRoot r = new SquareRoot();
+        myClass r = new SquareRoot();  // using abstract class reference
         r.calculate(d);
     }
 }
