@@ -1,3 +1,5 @@
+// Dead locks in multithreading 
+
 class BookTicket implements Runnable
 {
     Object train, comp;
@@ -20,7 +22,7 @@ class BookTicket implements Runnable
             catch(InterruptedException ie) {}
 
             System.out.println("Book ticket now waiting to lock on compartment");
-        
+
             synchronized(comp)
             {
                 System.out.println("Bookticket locked on compartment ");
@@ -41,26 +43,26 @@ class CancelTicket implements Runnable
 
     public void run()
     {
-        synchronized(train)
+        synchronized(comp)
         {
-            System.out.println("Cancel ticket locked on train");
+            System.out.println("Cancel ticket locked on Compartment");
             try
             {
                 Thread.sleep(100);
             }
             catch(InterruptedException ie) {}
 
-            System.out.println("Cancel ticket now waiting to lock on compartment");
+            System.out.println("Cancel ticket now waiting to lock on train");
 
-            synchronized(comp)
+            synchronized(train)
             {
-                System.out.println("Bookticket locked on compartment ");
+                System.out.println("Bookticket locked on train ");
             }
         }
     }
 }
 
-class temp
+class DeadLockInThreads
 {
     public static void main(String args[])
     {
@@ -77,3 +79,6 @@ class temp
         t2.start();
     }
 }
+
+// The program will not terminate. The BookTicket Thread is waiting for the compartment object and CancalTicket
+// thread is waiting for train class object. This waiting continues forever.
