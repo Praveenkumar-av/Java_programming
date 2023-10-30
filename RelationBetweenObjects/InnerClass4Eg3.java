@@ -1,3 +1,5 @@
+// 3. Java Anonymous Inner Class in Method Arguments
+
 class Outer
 {
     void show()
@@ -6,7 +8,7 @@ class Outer
     }
 }
 
-class temp
+class InnerClass4Eg3
 {
     static void display(Outer obj)
     {
@@ -15,6 +17,7 @@ class temp
 
     public static void main(String args[])
     {
+        // call and pass the anonymous class object as a argument to a display method
         display(new Outer()
         {
             void show()
