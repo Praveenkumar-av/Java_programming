@@ -63,7 +63,7 @@ class Key_pressed extends Frame implements KeyListener
 
         // get the name of the key from the code 
         String keyname = ke.getKeyText(keycode);
-        msg += "\nKey pressed :"+keyname;
+        msg += "\nKey released :"+keyname;
 
         // display the key code and key name in the text area
         ta.setText(msg);
