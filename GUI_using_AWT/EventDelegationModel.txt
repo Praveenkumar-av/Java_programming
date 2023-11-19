@@ -1,3 +1,5 @@
+Event Delegation model
+    
     When we create a component, generally the component is displayed on the screen but is not capable 
 of performing any actions. 
     An event represents a specific action done on a component. Clicking, double Clicking, typing data 

@@ -58,5 +58,3 @@ class ButtonDemo extends JFrame
         b.setVisible(true);
     }
 }
-
-

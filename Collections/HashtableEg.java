@@ -1,14 +1,14 @@
-// Hash Map class
-// Hash map is a collection that stores element in the form of key-value pairs. Keys should be unique.
-// Hash map is not synchronized. 
+// Hashtable Class
+// Hashtable is similar to HashMap which can store elements in the form of key-value pairs.
+// But, HashTable is synchronized. 
 
 import java.util.*;
 
-class HashMapEg
+class HashtableEg
 {
     public static void main(String args[])
     {
-        HashMap<Integer, String> hm = new HashMap<>();
+        Hashtable<Integer, String> hm = new Hashtable<>();
 
         hm.put(1,"apple");  // stores key-value pair to the HashMap
         hm.put(2,"Banana");

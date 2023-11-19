@@ -1,0 +1,16 @@
+Collection objects 
+
+A collection object or container is an object which can store a group of objects.
+A collection object has a class known as 'collection class' or 'container class'. 
+All the collection classes are available in the package, java.util. (util stands for utility).
+A group of collection classes is called as 'collection framework'. 
+
+JVM does not store the copies of other objects, it simply stores the references of other objects
+into a collection object.
+
+Retrieving elements from Collections :
+    using for-each loop
+    using Iterator interface
+    using ListIterator interface
+    using Enumeration interface
+
