@@ -9,7 +9,7 @@ class A
             // take a string with 5 chars
             String s = "hello";
 
-            // the folloeing expression throws exception
+            // the following expression throws exception
             char ch = s.charAt(5);
         }
         catch(StringIndexOutOfBoundsException sie)

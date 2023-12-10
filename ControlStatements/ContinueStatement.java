@@ -28,7 +28,6 @@ class ContinueStatement
             {
                 if(j == 2)
                 {
-
                     continue outer;
                 }
                 System.out.println("\tj :"+j);

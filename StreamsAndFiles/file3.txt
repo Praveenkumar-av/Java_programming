@@ -1,0 +1,2 @@
+This file is creted by FileWriterEg
+I am a learner of Java.

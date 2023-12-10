@@ -4,7 +4,7 @@
  as there are no. of elements in the collection.
 
 Syntax :
-    for(var : collection)
+    for(variable : collection)
     {
         statements;
     }

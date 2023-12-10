@@ -6,7 +6,7 @@ A method has two parts :
 Method header or prototype :
     It contains method name, method parameters and return type.
  Syntax : 
-    accessmodifier returndatatype methodname(datatype parameter1, datatype parameter2,....) Exemption statements
+    accessmodifier returndatatype methodname(datatype parameter1, datatype parameter2,....) Exception statements
  Eg :
     double sqrt(double x)   // return type is double, method name is sqrt, parameter is double
 
@@ -25,7 +25,7 @@ Method body :
 
 Method Example :
 
-accessmodifier returntype methodname(datatype parameter1, datatype parameter2,....) Exemption statements
+accessmodifier returntype methodname(datatype parameter1, datatype parameter2,....) Exception statements
 {
     //statements
 }
