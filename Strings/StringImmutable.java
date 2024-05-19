@@ -14,7 +14,7 @@ class StringImmutable
         System.out.println(s2);
 
         /* In the above example, we are trying to change the content of the string object s1. JVM creates a new
-        object and stores the string 'database' in it. After creating the new object, the erference of s1 is
+        object and stores the string 'database' in it. After creating the new object, the reference of s1 is
         changed to the new object. The old object has lost reference and is eligible for garbage collection. */
     }
 }

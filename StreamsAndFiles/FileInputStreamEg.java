@@ -5,8 +5,15 @@ class FileInputStreamEg
 {
     public static void main(String args[]) throws IOException
     {
-        FileInputStream fin = new FileInputStream("file1.txt");
-
+        FileInputStream fin = null;
+        try
+        {
+            fin = new FileInputStream("file1.txt");
+        }
+        catch(FileNotFoundException fe)
+        {
+            System.out.println("File not found");
+        }
         System.out.println("File contents :");
 
         // read characters from FileInputStream and write them to monitor.

@@ -45,5 +45,8 @@ class Eg1
 
         // Convert a string to lower case
         System.out.println("Lowercase of s1: " + s1.toLowerCase());
+
+        // contains method to check if a string contains a substring
+        System.out.println("s1 contains \"book\": " + s1.contains("book"));
     }
 }

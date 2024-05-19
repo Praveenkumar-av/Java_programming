@@ -1,5 +1,5 @@
 // Array list class
-// An array is like an array which can grow in memory dynamically. 
+// An arraylist is like an array which can grow in memory dynamically. 
 // ArrayList is not synchronized. 
 
 import java.util.*;

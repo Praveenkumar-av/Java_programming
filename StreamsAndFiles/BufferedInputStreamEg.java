@@ -11,7 +11,7 @@ class BufferedInputStreamEg
         System.out.println("Enter the file name :");
         fname = scan.next();
 
-        FileInputStream fin = null;  // assign nothing to fin
+        FileInputStream fin = null;  // assign null to fin
         try 
         {
             // check if file exists or not

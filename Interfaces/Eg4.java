@@ -1,4 +1,4 @@
-// Abstract class implementing interaface
+// Abstract class implementing interface
 
 interface A 
 {

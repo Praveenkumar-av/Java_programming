@@ -20,13 +20,14 @@ class JaggedArrays
         x[1][2] = 50;
 
         // Display the elements:
-        int i;
-        for(i=0;i<2;i++)
-        {
-            System.out.println(x[0][i]+" ");
-        }
+        int i, j;
 
-        for(i=0;i<3;i++)
-            System.out.println(x[1][i]+" ");
+        for(i=0;i < x.length;i++)
+        {
+            for(j=0;j < x[i].length;j++)
+            {
+                System.out.println(x[i][j]);
+            }
+        }
     }
 }

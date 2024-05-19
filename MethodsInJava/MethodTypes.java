@@ -12,8 +12,8 @@ Instance methods can access static variables and static methods directly.
     Static methods are methods which act on static variables of the class. 
 To call the method we need to use the class name and then call the method using the class name. 
 Static methods can access static variables and static methods directly. 
-Static methods cannot access instance variables and instance methods directly. hey need some object 
-reference to access them.  Static methods can be accessed using the class name or object reference. 
+Static methods cannot access instance variables and instance methods directly. They need some object 
+reference to access them. Static methods can be accessed using the class name or object reference. 
 But it is recommended to use the class name to access static methods. 
 Static methods cannot use 'this' keyword as there is no instance for this to refer to. */
 

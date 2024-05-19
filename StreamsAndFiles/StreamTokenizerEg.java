@@ -23,6 +23,8 @@ class StreamTokenizerEg
         int wordCount=0, charCount=0, lineCount=0, numberCount=0;
         
         StreamTokenizer input = new StreamTokenizer(fis);
+        input.eolIsSignificant(true);  // if the end of file taken as a token
+
         int tok;
         while((tok = input.nextToken()) != StreamTokenizer.TT_EOF)
         {

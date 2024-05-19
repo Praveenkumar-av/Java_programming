@@ -80,5 +80,5 @@ class DeadLockInThreads
     }
 }
 
-// The program will not terminate. The BookTicket Thread is waiting for the compartment object and CancalTicket
+// The program will not terminate. The BookTicket Thread is waiting for the compartment object and CancelTicket
 // thread is waiting for train class object. This waiting continues forever.

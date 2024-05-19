@@ -5,9 +5,6 @@ class FileReaderEg
 {
     public static void main(String args[]) throws IOException
     {
-        // var
-        int ch;
-
         // check if file exists or not
         FileReader fr = null;
 
@@ -21,6 +18,9 @@ class FileReaderEg
             return;
         }
 
+        // var
+        int ch;
+        
         // read from FileReader till the end of file
         while((ch = fr.read()) != -1)
         {

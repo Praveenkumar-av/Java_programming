@@ -1,4 +1,4 @@
-/* Even the objects are also passed to methods to java by value. This means, a copy of the object is passed to the method.
+/* Even the objects are also passed to methods in java by value. This means, a copy of the object is passed to the method.
 So, any changes made to the object inside the method will not be reflected in the original object. */
 
 class Employee

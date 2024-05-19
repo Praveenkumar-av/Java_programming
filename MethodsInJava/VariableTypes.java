@@ -31,8 +31,10 @@ class Test
 
     void local(int num)
     {
-        // here 'num' is a local variable
-        System.out.println("Local variable :"+num);  // num cannot be accessed outside this method
+        int numl = 10;
+        // here 'num' and 'numl' are local variable
+        // num and numl cannot be accessed outside this method
+        System.out.println("\nLocal variable :"+num+" "+numl);  
     }
 }
 
@@ -47,7 +49,7 @@ class VariableTypes
         t1.display();
         t2.display();
 
-        System.out.println("After incrementing the variables of object t1");
+        System.out.println("\nAfter incrementing the variables of object t1");
         // increment the instance variable of object t1
         t1.num1++;
 

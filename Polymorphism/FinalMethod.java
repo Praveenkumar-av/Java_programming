@@ -18,7 +18,7 @@ class FinalMethod
 {
     public static void main(String args[])
     {
-        B b = new B();
+        A b = new A();
         b.show(2);
     }
 }

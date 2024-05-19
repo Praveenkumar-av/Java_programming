@@ -23,9 +23,9 @@ class Person
     }
 
     // parameterized constructor
-    Person(String n, int a)
+    Person(String s, int a)
     {
-        name = n;
+        name = s;
         age = a;
     }
 
