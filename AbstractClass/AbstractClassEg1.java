@@ -40,7 +40,6 @@ class AbstractClassEg1
     public static void main(String args[])
     {
         double d = 4;
-        
 
         Square s = new Square();
         s.calculate(d);

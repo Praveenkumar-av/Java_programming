@@ -2,8 +2,6 @@
 
 import java.util.*;
 
-import java.util.*;
-
 class QueueInterfaceEg
 {
     public static void main(String args[])

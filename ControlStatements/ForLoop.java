@@ -1,4 +1,6 @@
-/* The for loop is same as the while loop. The for loop executes a group of statements as long as the condition is true.
+/* The for loop is same as the while loop. The for loop executes a group of 
+statements as long as the condition is true.
+
 Syntax:
     for(initialization; condition; increment/decrement)
     {

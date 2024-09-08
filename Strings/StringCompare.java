@@ -29,6 +29,6 @@ class StringCompare
         // Compare two strings
         String s4 = "Apple";
         String s5 = "Appla";  // compares the first character that is different using ASCII values
-        System.out.println("s4.compareTo(s5): " + s4.compareTo(s5));
+        System.out.println("s4.compareTo(s5): " + s4.compareTo(s5));  // returns 0 if both strings are equal
     }
 }

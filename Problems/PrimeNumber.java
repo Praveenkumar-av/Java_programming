@@ -6,15 +6,16 @@ class Primes
     static boolean prime(int num)
     {
         // to check if the number is prime or not
-        for(int i=2;i<num;i++)
+        for(int i=2; i<Math.sqrt(num); i++)
         {
-            if(num%i == 0)
+            if(num % i == 0)
             {
                 return false;
             }
         }
         return true;
     }
+
     static void generate(int max)
     {
         // to generate numbers

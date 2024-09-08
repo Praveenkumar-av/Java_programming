@@ -1,4 +1,4 @@
 String represents an array of characters, where the last character will be '\0'.
 But in Java, a string is an object of String class. It is not a character array. 
 A class separately with the name 'String' in java.lang(language) package with all necessary 
-methods to work witth strings.
+methods to work with strings.

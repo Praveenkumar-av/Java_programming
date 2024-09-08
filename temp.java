@@ -5,15 +5,10 @@ import java.util.LinkedList;
  {
     public static void main(String []args)
     {
-        Queue<int[]> q = new LinkedList<>();
+        int[] arr = {1, 2, 3};
+        int[] a = arr.clone();
 
-        q.add(new int[]{1,2,3});
-        q.add(new int[]{10,20,30});
-
-        System.out.println(q.poll()[0]);
-        // System.out.println(q.poll()[1]);
-
-        int[] temp = q.poll();
-        System.out.println(temp[4]);
+        for(int i=0; i<arr.length; i++)
+            System.out.println(a[i]);
     }
  }

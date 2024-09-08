@@ -1,4 +1,4 @@
-// A jagged array is an array that contains group of elements within it. It can store arrays of any type.
+// A jagged array is an array that contains group of elements within it. It can store arrays of different size.
 // A jagged array is also called 'irregular multidimensional arrays'
 
 class JaggedArrays
