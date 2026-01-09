@@ -43,5 +43,5 @@ String trim()                           returns a copy of the string, with leadi
 
 String[] split(String delimiter)        returns a string array that contains the substrings of this string that are delimited by the given regular expression
 
-void getChars(int i1, int i2, char[] arr, int i3)  copies characters from this string into the destination character array. The characters strating from
+void getChars(int i1, int i2, char[] arr, int i3)  copies characters from this string into the destination character array. The characters starting from
                                                     position i1 to i2-1. The destination array arr is filled from position i3 onwards

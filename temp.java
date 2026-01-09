@@ -1,14 +1,16 @@
-import java.util.Queue;
-import java.util.LinkedList;
- 
- class temp
- {
-    public static void main(String []args)
-    {
-        int[] arr = {1, 2, 3};
-        int[] a = arr.clone();
 
-        for(int i=0; i<arr.length; i++)
-            System.out.println(a[i]);
+class temp {
+    public static void main(String[] args) {
+
+        StringBuffer str = new StringBuffer("Hey this is pro");
+        
+        int i = 0;
+        while(i < str.length()) {
+            if(str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
+                str.setCharAt(i, (char)(str.charAt(i) - 32));
+            }
+            i++;  
+        }
+        System.out.println(str);
     }
- }
+}

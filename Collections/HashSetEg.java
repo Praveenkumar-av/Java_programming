@@ -1,6 +1,7 @@
 // Hash set
 // The set will not allow duplicate data. Also the set will not maintain 
 // the same order of elements as in which they were entered.
+// HashSet implements Set, Collection, Iterable, Cloneable, Serializable
 
 import java.util.*;
 class HashSetEg

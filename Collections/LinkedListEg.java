@@ -1,4 +1,4 @@
-// LinkedList Class
+// LinkedList Class - java uses doubly linked list
 // A linked list contains a group of elements in the form of nodes. Each node will have three fiels -
 // the data field contains data and the link fields contain references to previous and next nodes. 
 
@@ -9,30 +9,26 @@ class LinkedListEg
     {
         LinkedList<String> ll = new LinkedList<>();
 
-        // add some names to linked list
-        ll.add("America");  // adds element to the linked list and returns true if element is added successfully.
-        ll.add("India");
-        ll.add("UK");
-
-        ll.add(2,"Germany");  // adds element obj at the position of the linked list.
-
-        ll.addFirst("First");  // adds element at the first position of the linked list.
-
-        ll.addLast("Last");  // adds element at the end of the linked list.
-
-        // display the elements in the linked list
-        System.out.println("List :"+ll);
-
-        System.out.println("First element removed :"+ll.removeFirst());  // removes the first element and returns it.
-
-        System.out.println("Last element removed :"+ll.removeLast());  // removes the last element and returns it.
-
-        System.out.println("Remove element at 2 :"+ll.remove(2));  // removes the element at the specified position.
-
-        System.out.println("First element :"+ll.getFirst());  // returns the first element 
-
-        System.out.println("Last element :"+ll.getLast());  // returns the last element
-
-        System.out.println("Get the element at 2 :"+ll.get(2));  // removes the element at the position
+        // all the methods of ArrayList are available in linkedlist
+        // In addition, linkedlist has some extra methods like addFirst, addLast, removeFirst, removeLast, getFirst, getLast, etc.
+        ll.add("element1");
+        ll.offer("element2");
+        ll.addFirst("element3");
+        ll.addLast("element4");
+        ll.offerFirst("element5");
+        ll.offerLast("element6");
+        System.out.println(ll);
+        System.out.println(ll.getFirst());
+        System.out.println(ll.getLast());
+        System.out.println(ll.peek());
+        System.out.println(ll.peekFirst());
+        System.out.println(ll.peekLast());
+        System.out.println(ll.removeFirst());
+        System.out.println(ll.removeLast());
+        System.out.println(ll.poll());
+        System.out.println(ll.pollFirst());
+        System.out.println(ll.pollLast());
+        
+        ll.forEach(x -> System.out.println(x));
     }
 }

@@ -51,11 +51,11 @@ class StringBufferMethods
         sb.replace(9, 10, "ies");
         System.out.println(sb);
 
-        // StringBuffer substring(int i) : returns the substring from start to the end of the StringBuffer
+        // String substring(int i) : returns the substring from start to the end of the StringBuffer
         s = sb.substring(3);
         System.out.println(s);
 
-        // StringBuffer substring(int start, int end) : returns the substring from start to end-1
+        // String substring(int start, int end) : returns the substring from start to end-1
         s = sb.substring(3, 6);
         System.out.println(s);
         

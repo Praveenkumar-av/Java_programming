@@ -1,6 +1,5 @@
 // LinkedHashSet Class
-// This is a sub class of Hashset class and does not contain any additional members 
-// on its own. It internally uses a linked list to store the elements.
+// It is same as hashset but it maintains the order as they are inserted.
 
 import java.util.LinkedHashSet;
 
